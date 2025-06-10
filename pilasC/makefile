@@ -2,7 +2,7 @@ OBJS = main.o pila.o
 OUT = output
 FLAGS = -Wall -g
 
-compile: $(OBJS)
+build: $(OBJS)
 	gcc $(FLAGS) -o $(OUT) $(OBJS)
 
 main.o: main.c pila.h
