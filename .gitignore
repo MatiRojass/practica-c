@@ -1,0 +1,10 @@
+# Ejecutables
+.exe
+.out
+.elf
+
+# Objetos
+*.o
+
+build/
+bin/
